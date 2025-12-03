@@ -1,104 +1,119 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fahad Hossain - Integration Engineer | Backend & API</title> 
-    <link rel="stylesheet" href="main.css"> 
-    
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" /
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Fahad Hossain — Backend & Integration Engineer</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Backend Integration: Stripe, Webhooks, JWT, OAuth2, File Upload. Production-ready APIs. Available for freelance." />
 </head>
 <body>
-    <header class="hero">
-        <div class="container">
-            <h1>Fahad Hossain</h1>
-            <p class="tagline">Expert Integration Engineer | Backend & API Specialist</p>
-            
-            <p class="description">
-                As a dedicated **Integration Engineer**, I specialize in building robust and scalable backend services focused on connectivity and security. My core expertise includes implementing advanced Authentication systems (JWT, OAuth2), integrating complex Payment Gateways (Stripe Webhooks), and deploying reliable Cloud File Upload solutions. I ensure seamless and secure communication between systems to deliver high-performance solutions.
-            </p>
-            <div class="contact-info">
-                <a href="fahad.integration.ml@gmail.com"><i class="fas fa-envelope"></i> fahad.integration.ml@gmail.com</a>
-            </div>
-            
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/fahad-hossain-3070ab384/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                <a href="https://www.fiverr.com/fahadapidev/buying?source=avatar_menu_profile" target="_blank" title="Fiverr"><i class="fas fa-briefcase"></i></a>
-                <a href="https://www.upwork.com/freelancers/~01ac51d29d6f13ee3a" target="_blank" title="Upwork"><i class="fab fa-upwork"></i></a>
-                <a href="https://github.com/fahadai-dev" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-            </div>
-        </div>
-    </header>
+  <header class="header">
+    <div class="wrap">
+      <div class="left">
+        <div class="logo">Fahad<span class="dot">.</span></div>
+        <p class="tag">Backend & Integration Engineer — Stripe · JWT · OAuth2 · Webhook</p>
+      </div>
+      <nav class="nav">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-    <section id="projects" class="projects-section">
-        <div class="container">
-            <h2>Core Integration Projects</h2>
-            <div class="project-grid">
-                
-                <div class="project-card">
-                    <h3>Secure Flask JWT API</h3>
-                    <p>A robust, stateless authentication system built with Python. Implements JSON Web Tokens (JWT) for secure user registration, login, and verified request handling in a modern REST API.</p>
-                    <div class="project-tech"><span>Python</span><span>FastAPI/Flask</span><span>JWT Auth</span><span>REST API</span></div>
-                    <a href="https://github.com/fahadai-dev/flask-jwt-api" target="_blank" class="btn-primary">View on GitHub <i class="fas fa-external-link-alt"></i></a>
-                </div>
-
-                <div class="project-card">
-                    <h3>OAuth2 Google Sign-in Service</h3>
-                    <p>Integration of Google OAuth2 for fast and secure social login. Manages session authentication and token validation, demonstrating expertise in third-party service integration.</p>
-                    <div class="project-tech"><span>Python</span><span>OAuth2</span><span>Google API</span><span>Session Mgt</span></div>
-                    <a href="https://github.com/fahadai-dev/oauth2-google-login" target="_blank" class="btn-primary">View on GitHub <i class="fas fa-external-link-alt"></i></a>
-                </div>
-
-                <div class="project-card">
-                    <h3>Stripe Payment & Webhook API</h3>
-                    <p>A secure payment processing API using Stripe Checkout. Features robust Webhook handling to track real-time transaction status and update the internal database reliably.</p>
-                    <div class="project-tech"><span>Python</span><span>Stripe</span><span>Webhook</span><span>API</span></div>
-                    <a href="https://github.com/fahadai-dev/stripe-payment-integration" target="_blank" class="btn-primary">View on GitHub <i class="fas fa-external-link-alt"></i></a>
-                </div>
-                
-                <div class="project-card">
-                    <h3>Secure File Upload & Cloud Storage</h3>
-                    <p>A scalable system for handling file uploads, integrating with cloud storage (AWS S3/Digital Ocean Spaces). Includes file validation, security checks, and efficient storage management.</p>
-                    <div class="project-tech"><span>Python</span><span>AWS S3</span><span>File Validation</span><span>Scalability</span></div>
-                    <a href="https://github.com/fahadai-dev/file-upload-api-flask" target="_blank" class="btn-primary">View on GitHub <i class="fas fa-external-link-alt"></i></a>
-                </div>
-                
-            </div>
-        </div>
+  <main class="wrap main">
+    <section class="hero">
+      <h1>I build secure, production-ready API integrations</h1>
+      <p>I deliver backend solutions: Stripe payments & webhooks, JWT/OAuth2 authentication, file upload systems and REST APIs. Proof-of-concept in 24–48 hours.</p>
+      <div class="cta">
+        <a href="#contact" class="btn primary">Hire me</a>
+        <a href="https://github.com/fahadai-dev" target="_blank" class="btn ghost">View GitHub</a>
+      </div>
     </section>
 
-    <section id="skills" class="skills-section">
-        <div class="container">
-            <h2>Technical Expertise</h2>
-            <div class="skills-list">
-                <span>Python</span>
-                <span>FastAPI/Flask</span>
-                <span>RESTful APIs</span>
-                <span>JWT Authentication</span>
-                <span>OAuth2</span>
-                <span>Stripe Integration</span>
-                <span>Webhooks</span>
-                <span>AWS S3/Cloud Storage</span>
-                <span>SQL/SQLAlchemy</span>
-                <span>Git/GitHub</span>
-            </div>
-        </div>
+    <section id="projects" class="section">
+      <h2>Selected Projects</h2>
+
+      <div class="grid">
+        <article class="card">
+          <h3>Stripe Payment + Webhook Integration</h3>
+          <p class="muted">Secure Stripe checkout, payment intent and webhook handling with order automation.</p>
+          <ul class="bullets">
+            <li>Payment Intent + Checkout</li>
+            <li>Webhook signature verification</li>
+            <li>Order status & refund flow</li>
+          </ul>
+          <p class="tech">Tech: Python · Flask · Stripe API</p>
+          <a class="link" href="https://github.com/fahadai-dev/stripe-webhook-demo" target="_blank">View on GitHub</a>
+        </article>
+
+        <article class="card">
+          <h3>JWT Authentication API</h3>
+          <p class="muted">Access + Refresh token flow, protected routes and role-based access.</p>
+          <ul class="bullets">
+            <li>Register / Login</li>
+            <li>Access & refresh tokens</li>
+            <li>Role-based authorization</li>
+          </ul>
+          <p class="tech">Tech: Python · Flask · PyJWT</p>
+          <a class="link" href="https://github.com/fahadai-dev/jwt-auth-api" target="_blank">View on GitHub</a>
+        </article>
+
+        <article class="card">
+          <h3>Google OAuth2 Login</h3>
+          <p class="muted">Google one-click login with secure redirect & profile retrieval.</p>
+          <ul class="bullets">
+            <li>OAuth2 client setup</li>
+            <li>Token verification</li>
+          </ul>
+          <p class="tech">Tech: Python · Flask</p>
+          <a class="link" href="https://github.com/fahadai-dev/google-oauth2-login" target="_blank">View on GitHub</a>
+        </article>
+
+        <article class="card">
+          <h3>File Upload + Cloud Storage</h3>
+          <p class="muted">Multi-file upload with validation, Cloudinary / S3 options and secure URLs.</p>
+          <ul class="bullets">
+            <li>Size & type validation</li>
+            <li>Cloudinary / AWS S3 support</li>
+            <li>Public & private access</li>
+          </ul>
+          <p class="tech">Tech: Python · Flask · Cloudinary / S3</p>
+          <a class="link" href="https://github.com/fahadai-dev/file-upload-api" target="_blank">View on GitHub</a>
+        </article>
+      </div>
     </section>
 
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 Fahad Hossain. All rights reserved.</p> 
-            
-            <div class="social-links-footer">
-                <a href="https://www.linkedin.com/in/fahad-hossain-3070ab384/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                <a href="https://www.fiverr.com/fahadapidev/buying?source=avatar_menu_profile" target="_blank" title="Fiverr"><i class="fas fa-briefcase"></i></a>
-                <a href="https://www.upwork.com/freelancers/~01ac51d29d6f13ee3a" target="_blank" title="Upwork"><i class="fab fa-upwork"></i></a>
-                <a href="https://github.com/fahadai-dev" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-            </div>
-            
-        </div>
-    </footer>
+    <section id="skills" class="section">
+      <h2>Skills & Tools</h2>
+      <div class="skills">
+        <span>Python</span><span>Flask / FastAPI</span><span>REST API</span><span>Stripe</span><span>JWT / OAuth2</span>
+        <span>Webhook Integration</span><span>Cloudinary / AWS S3</span><span>Postman</span><span>Git / GitHub</span><span>React (learning)</span>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h2>Contact & Hire</h2>
+      <p>Available for freelance & remote projects. I deliver POC/demo within 24–48 hours.</p>
+      <ul class="contact-list">
+        <li><strong>Email:</strong> <a href="mailto:fahad.integration.ml@gmail.com">fahad.integration.ml@gmail.com</a></li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/fahadai-dev" target="_blank">github.com/fahadai-dev</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/fahad-hossain-3070ab384/" target="_blank">linkedin.com/in/fahad-hossain</a></li>
+      </ul>
+
+      <p class="hint">Quick demo? Reply with <code>Send demo — Stripe</code> or <code>Send demo — JWT</code>.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p>© <span id="year"></span> Fahad Hossain — Backend Integration</p>
+    </div>
+  </footer>
+
+<script>
+  document.getElementById('year').innerText = new Date().getFullYear();
+</script>
 </body>
 </html>
